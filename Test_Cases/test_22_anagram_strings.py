@@ -1,7 +1,7 @@
 import importlib.util
 from pathlib import Path
 
-path = Path(__file__).resolve().parents[1] / "codes" / "22_anagram_strings.py"
+path = Path(__file__).resolve().parents[1] / "Codes" / "22_anagram_strings.py"
 spec = importlib.util.spec_from_file_location("anagram", path)
 module = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(module)
