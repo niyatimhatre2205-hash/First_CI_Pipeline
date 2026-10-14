@@ -5,7 +5,7 @@ from pathlib import Path
 
 file_path = (
     Path(__file__).parent.parent
-    / "codes"
+    / "Codes"
     / "21_largest_word.py"
 )
 
