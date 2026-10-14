@@ -1,4 +1,4 @@
-```yaml
+
 name: Python Tests
 
 on:
@@ -9,7 +9,6 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -26,4 +25,3 @@ jobs:
 
       - name: Run tests
         run: python -m pytest -v
-```
