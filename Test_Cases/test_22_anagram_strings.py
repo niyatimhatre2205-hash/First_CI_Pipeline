@@ -19,6 +19,6 @@ def test_case_and_spaces():
 def test_not_anagram():
     assert is_anagram("Hello", "World") is False
 
-
 def test_empty_strings():
     assert is_anagram("", "") is True
+    
